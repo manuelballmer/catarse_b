@@ -7,10 +7,10 @@ de:
       confirmed_backers: 'Bestätigte Spenden'
       created_projects: 'Erstellte Projekte'
   site:
-    title: "The biggest crowdfunding community in Brazil"
+    title: "Prototyp BLKB Crowdfunding"
     meta_title:  "%{title} · %{company_name}"
-    description: "O Catarse é uma ferramenta diferente – e colaborativa – para tirar o seu projeto do papel!"
-    keywords: "catarse, crowdfunding, project, community, open source"
+    description: "Die BLKB und die Crowd unterstützen Sie bei Ihren Projekten"
+    keywords: "blkb, crowdfunding, project, community"
 
   login:
     forgot_passord:
@@ -48,40 +48,40 @@ de:
   or: or
   'no': "Nein"
   'yes': "Ja"
-  newsletter_ok_header: "You are subscribed to the newsletter!"
-  newsletter_ok_body: "Your email is now in our newsletter list, thanks for subscribing!"
-  newsletter_error_header: "Woops! There was an error."
-  newsletter_error_body: "Your email could not be added to our newsletter list, please try again later!"
-  newsletter_subscribe: "subscribe"
+  newsletter_ok_header: "Sie wurden für den Newsletter registriert!"
+  newsletter_ok_body: "Ihre e-mail-Adresse ist nun auf unserer Newsletter-Liste, vielen Dank für Ihr Interesse!"
+  newsletter_error_header: "ups! Es gab ein Fehler."
+  newsletter_error_body: "Ihre e-mail-Adresse konnte nicht in unserer Newsletter-Lister registriert werden, bitte versuchen sie es später!"
+  newsletter_subscribe: "abonnieren"
   views:
     pagination:
-      next: next
-      last: last
+      next: "Nächste"
+      last: "Vorherige"
       truncate: "..."
   statistics:
     backers:
       subtitle: backers
     goal:
-      subtitle: "total of %{total}"
-  project_by: "project by"
-  tell_about_this_back: "Tell the world about your support!"
-  share_my_backs: "See the projects that I support in Catarse!"
-  tell_about_this_project: "Tell the world about your project!"
-  share_my_projects: "See my projects in Catarse!"
-  count_backed_projects: "backed %{total} projects"
+      subtitle: "Total von %{total}"
+  project_by: "Projekt von"
+  tell_about_this_back: "Berichten Sie der Welt Ihren Beitrag!"
+  share_my_backs: "Zeige alle Projekt die ich unterstütze!"
+  tell_about_this_project: "Erzählen Sie der Welt Ihr Projekt!"
+  share_my_projects: "Zeige alle meine Projekte!"
+  count_backed_projects: "unterstützte %{total} Projekte"
   footer:
     titles:
-      info: "Useful Information"
-      opendata: "nice statistics"
-      social: "do you like Catarse?"
-      newsletter: "receive our newsletter"
+      info: "Nützliche Informationen"
+      opendata: "nette Statistiken"
+      social: "mögen sie BLKB Crowdfunding?"
+      newsletter: "abonnieren Sie unseren Newsletter"
     stats:
       backers: Backers
       backs: Backs
       total_backed: Backed
       users: Users
-      funded_projects: "Successful projects"
-      active_projects: "Projects on air now"
+      funded_projects: "Erfolgreiche Projekte"
+      active_projects: "laufende Projekte"
     links:
       about: "Who are we"
       how_works: "How It works"
@@ -93,19 +93,19 @@ de:
       contact: Contact
   main:
     links:
-      selected: "explore more projects selected"
-      expiring: "explore more expiring projects"
-      recents: "explore more recent projects"
-      near: "explore more near me projects"
+      selected: "weitere ausgewählte Projekte"
+      expiring: "weitere Projekte kurz vor Ablauf"
+      recents: "kürzlich erstellte Projekte"
+      near: "Projekte in meiner Umgebung"
   sidebar:
     titles:
       blog: blog
-      facebook: "have you liked our facebook page yet?"
-      newsletter: "do you want to receive our news?"
-      faq: "have any doubt?"
-      schedule: calendar
+      facebook: "Folgen Sie uns bereits auf Facebook?"
+      newsletter: "Interessieren Sie sich für einen BLKB Newsletter?"
+      faq: "Fragen oder Anliegen?"
+      schedule: "Kalender"
     buttons:
-      newsletter: submit
+      newsletter: "abonnieren"
   sections:
     near:
       title: near me
@@ -175,7 +175,7 @@ de:
       project: Project
       reward: Reward
   backer:
-    display_confirmed_at: "%{time_ago} ago"
+    display_confirmed_at: "vor %{time_ago}"
     reward_must_be_from_project: "must be from the same project"
     should_not_back_if_maximum_backers_been_reached: "has reached its maximum backers"
     value_must_be_at_least_rewards_value: "must be at least %{minimum_value} for the selected reward"
@@ -184,11 +184,11 @@ de:
   project_plural: projects
   project_singular: project
   backer_singular: backer
-  click_here: "Click here"
-  clicking_here: "clicking here"
-  click_term: 'terms'
+  click_here: "Klicken Sie hier"
+  clicking_here: "hier klicken"
+  click_term: 'Geschäftsbedingungen'
   comment:
-    display_time: "%{time_ago} ago"
+    display_time: "vor %{time_ago}"
   credits:
     modal:
       title: "Do you want to confirm your refund request?"
@@ -198,17 +198,17 @@ de:
       accept_btn: "I want to request the refund"
     index:
       back_date: "Back date"
-      current_credits_html: "Your current balance is <span id=\"current_credits\">%{credits}</span> in credits."
+      current_credits_html: "Ihr aktuelles Guthaben ist zurzeit <span id=\"current_credits\">%{credits}</span>."
       important_html: "If you ask for a refund, the value of your payment will be deducted from your credits."
-      project: Project
+      project: "Projekt"
       refund_expration_date: "Refund deadline"
       refunded: "Refund request successfully done. Our team will contact you within two business days."
-      insufficient_credits: "You don't have enough credits to request this refund."
+      insufficient_credits: "Sie verfügen nicht über genügend Guthaben um diesen Beitrag zu leisten."
       refunds_title: "Payments that can be refunded"
-      request_refund: "Request refund"
-      requested_refund: "Requested refund"
+      request_refund: "Beitrag leisten"
+      requested_refund: "Beitrag geleistet"
       status: Status
-      title: "My credits"
+      title: "Mein Guthaben"
       value: Value
     refund:
       cannot_refund: "This payment cannot be refunded."
@@ -278,7 +278,7 @@ de:
         days_to_delivery: "Total of days to deliver the reward."
     labels:
       backer:
-        anonymous: "I want my back to be anonymous."
+        anonymous: "Ich möchte anonym spenden"
         credits: "I want to use my credits on this back."
         reward: "Select your reward"
         value: "How much do you want to contribute with?"
@@ -427,9 +427,9 @@ de:
           credits: "Confirm backing with credits"
           moip: "Proceed to MoIP's checkout"
         subtitle: "This is the last step to make the difference and become part of this project."
-        title: "Fill in and review your data"
-        choose_payment: "How do you want to pay?"
-        choose_payment_subtitle: "Select below a payment method"
+        title: "Daten ausfüllen und überprüfen"
+        choose_payment: "Wie möchten Sie bezahlen?"
+        choose_payment_subtitle: "Wählen Sie untenstehend die Zahlungsmethode"
         choose_credit_card: "PayPal"
         choose_boleto: "Payments from Brazil"
         you_are_about_html: "You are about to become part of the group that does everything to make %{link} happen."
