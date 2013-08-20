@@ -1,0 +1,17 @@
+en:
+  pages:
+    sign_up:
+      have_account_html: "Noch kein Benutzerkonto erstellt? <strong>%{link}</strong>"
+      titles:
+        site: 'Registrierung'
+        header: 'Registrierung'
+      links:
+        login: "anmelden"
+      form:
+        labels:
+          show_password: 'Zeige Passwort'
+        hint:
+          password_length: 'Das Passwort muss mindestens 6 Zeichen umfassen'
+        inputs:
+          submit: 'Registriere mich'
+          facebook: 'Registrierung mit Facebook'
