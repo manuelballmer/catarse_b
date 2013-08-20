@@ -34,8 +34,9 @@
 ].each do |name|
    category = Category.find_or_initialize_by_name_pt name[:pt]
    category.update_attributes({
-     name_en: name[:en], name_de: name[:de]
-   })
+//     name_en: name[:en], name_de: name[:de]
+   name_en: name[:en]
+    })
  end
 
 [
