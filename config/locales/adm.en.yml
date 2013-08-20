@@ -13,20 +13,22 @@ en:
         order_asc: 'Goal asc'
         order_desc: 'Goal desc'
         order_created_at: 'Submission date'
+        menu: 'Admin: Manage Projects'
     financials:
       index:
         submit: 'Filter'
         by_state: 'By state'
         by_progress: By progress %
+        menu: 'Admin: Manage Financials'
     users:
       index:
         title: "Management backers"
-        menu: Backers
-        credits: Credits
+        menu: "Backers"
+        credits: "Credits"
         credits_view: "Calculated credits"
-        id: ID
-        key: Key
-        submit: Search
+        id: "ID"
+        key: "Key"
+        submit: "Search"
         has_credits_difference: "Discrepancy in credits"
         total_backed: backed
         total_backers: backers
@@ -61,25 +63,25 @@ en:
         pending_to_refund: 'Pending to refund'
         created_at: 'Created at'
         title: "Backers management"
-        menu: Backs
-        anonymous: Anonymous?
-        confirmed: Confirmed?
+        menu: "Backs"
+        anonymous: "Anonymous?"
+        confirmed: "Confirmed?"
         credits: "Used credits?"
-        id: ID
-        key: Key
+        id: "ID"
+        key: "Key"
         no_backers: "No backers found."
-        project: Project
-        refunded: Refunded?
+        project: "Project"
+        refunded: "Refunded?"
         requested_refund: "Requested refund?"
-        reward: Reward
+        reward: "Reward"
         no_reward: "No reward"
-        submit: Search
-        total_backed: backed
-        total_backers: backers
-        total_backs: backs
-        total_users: Users
-        user: User
-        value: Value
+        submit: "Search"
+        total_backed: "backed"
+        total_backers: "backers"
+        total_backs: "backs"
+        total_users: "Users"
+        user: "User"
+        value: "Value"
     statistics:
       index:
         menu: "Statistics"
