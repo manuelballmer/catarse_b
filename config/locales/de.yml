@@ -83,14 +83,14 @@ de:
       funded_projects: "Erfolgreiche Projekte"
       active_projects: "laufende Projekte"
     links:
-      about: "Who are we"
-      how_works: "How It works"
-      faq: F.A.Q./Help
-      terms: "Terms of use"
-      policy: "Privacy Policy"
-      terms_link: 'http://suporte.catarse.me/knowledgebase/articles/161102-terms-of-use'
-      policy_link: 'http://suporte.catarse.me/knowledgebase/articles/161104-privacy-policy'
-      contact: Contact
+      about: "Über uns"
+      how_works: "So funktioniert's"
+      faq: "FAQ | Hilfe"
+      terms: "Nutzungsbedingungen"
+      policy: "Rechtliches"
+      terms_link: 'http://www.blkb.ch/index/rechtliches.htm'
+      policy_link: 'http://www.blkb.ch/index/rechtliches.htm'
+      contact: "Kontakt"
   main:
     links:
       selected: "weitere ausgewählte Projekte"
@@ -127,16 +127,16 @@ de:
               invalid: "Invalid project permalink"
     attributes:
       unsubscribe:
-        update: "Receive project updates"
+        update: "Projekt-Updates erhalten"
       backer:
-        value: Value
+        value: "Betrag"
       project:
-        category: Category
-        expires_at: Deadline
-        online_days: Days of the air campaign
-        headline: Headline
+        category: "Kategorie"
+        expires_at: "Läuft ab am"
+        online_days: "Anzahl Tage online"
+        headline: "Headline"
         image_url: "Image URL"
-        name: Name
+        name: "Name"
         user_id: "User ID"
         video_url: "Video URL"
         permalink: 'Project URL'
@@ -145,15 +145,15 @@ de:
       reward:
         description: Description
         maximum_backers: "Maximum backers"
-        minimum_value: "Minimum value"
+        minimum_value: "Maximal Betrag"
       user:
-        address_city: City
+        address_city: "Ort"
         address_complement: Complement
         address_neighbourhood: Neighbourhood
-        address_number: Number
-        address_state: State
-        address_street: Street
-        address_zip_code: "Zip code"
+        address_number: "Hausnummer"
+        address_state: "Bundesland"
+        address_street: "Strasse"
+        address_zip_code: "Postleitzahl"
         cpf: 'CPF / CNPJ '
         cpf_hint_title: 'Nota Fiscal será emitida para esse documento'
         cpf_hint: '(?)'
@@ -171,9 +171,9 @@ de:
         newsletter: 'I want receive news about Catarse'
     models:
       backer: Backer
-      category: Category
-      project: Project
-      reward: Reward
+      category: "Kategorie"
+      project: "Projekt"
+      reward: "Beitrag"
   backer:
     display_confirmed_at: "vor %{time_ago}"
     reward_must_be_from_project: "must be from the same project"
@@ -191,17 +191,17 @@ de:
     display_time: "vor %{time_ago}"
   credits:
     modal:
-      title: "Do you want to confirm your refund request?"
-      text: "Check out how our refund process works:"
-      link: "See how the refund works"
-      reject_btn: "I want to keep my credits"
-      accept_btn: "I want to request the refund"
+      title: "Sie bestätigen hiermit Ihren Beitrag?"
+      text: "Finden Sie heraus wie der Prozess funktioniert:"
+      link: "Erfahren Sie mehr wie eine Zahlung abläuft"
+      reject_btn: "Ich möchte mein Guthaben behalten"
+      accept_btn: "Ich möchte einen Beitrag leisten"
     index:
-      back_date: "Back date"
+      back_date: "Datum des Beitrag"
       current_credits_html: "Ihr aktuelles Guthaben ist zurzeit <span id=\"current_credits\">%{credits}</span>."
-      important_html: "If you ask for a refund, the value of your payment will be deducted from your credits."
+      important_html: "Achtung: Ihr Beitrag wird ihrem Guthaben-Konto belastet!"
       project: "Projekt"
-      refund_expration_date: "Refund deadline"
+      refund_expration_date: "Ablaufzeitpunkt"
       refunded: "Refund request successfully done. Our team will contact you within two business days."
       insufficient_credits: "Sie verfügen nicht über genügend Guthaben um diesen Beitrag zu leisten."
       refunds_title: "Payments that can be refunded"
@@ -209,7 +209,7 @@ de:
       requested_refund: "Beitrag geleistet"
       status: Status
       title: "Mein Guthaben"
-      value: Value
+      value: "Betrag"
     refund:
       cannot_refund: "This payment cannot be refunded."
       error: "Oops. There was an error while requesting your refund."
