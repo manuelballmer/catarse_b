@@ -34,7 +34,45 @@
 ].each do |name|
    category = Category.find_or_initialize_by_name_pt name[:pt]
    category.update_attributes({
-     name_en: name[:en], name_de: name[:de]
+     name_en: name[:en]
+   })
+ end
+ 
+ [
+  { pt: 'Arte', en: 'Art', de: 'Kunst' },
+  { pt: 'Artes plásticas', en: 'Visual Arts', de: 'Visuelle Kunst' },
+  { pt: 'Circo', en: 'Circus', de: 'Zirkus' },
+  { pt: 'Comunidade', en: 'Community', de: 'Komunal / Gemeinde' },
+  { pt: 'Humor', en: 'Humor', de: 'Humor' },
+  { pt: 'Quadrinhos', en: 'Comicbooks', de: 'Comicbücher' },
+  { pt: 'Dança', en: 'Dance', de: 'Tanz' },
+  { pt: 'Design', en: 'Design', de: 'Design' },
+  { pt: 'Eventos', en: 'Events', de: 'Events' },
+  { pt: 'Moda', en: 'Fashion', de: 'Mode' },
+  { pt: 'Gastronomia', en: 'Gastronomy', de: 'Gastronomie' },
+  { pt: 'Cinema & Vídeo', en: 'Film & Video', de: 'Film & Video' },
+  { pt: 'Jogos', en: 'Games', de: 'Spiele' },
+  { pt: 'Jornalismo', en: 'Journalism', de: 'Journalismus' },
+  { pt: 'Música', en: 'Music' },
+  { pt: 'Fotografia', en: 'Photography', de: 'Fotografie' },
+  { pt: 'Ciência e Tecnologia', en: 'Science & Technology', de: 'Wissenschaft & Technologie' },
+  { pt: 'Teatro', en: 'Theatre', de: 'Theater' },
+  { pt: 'Esporte', en: 'Sport', de: 'Sport' },
+  { pt: 'Web', en: 'Web', de: 'Web' },
+  { pt: 'Carnaval', en: 'Carnival', de: 'Fasnacht' },
+  { pt: 'Arquitetura & Urbanismo', en: 'Architecture & Urbanism', de: 'Architektur & Raumplanung' },
+  { pt: 'Literatura', en: 'Literature' },
+  { pt: 'Mobilidade e Transporte', en: 'Mobility & Transportation', de: 'Mobilität & Transport' },
+  { pt: 'Meio Ambiente', en: 'Environment', de: 'Umwelt & Natur' },
+  { pt: 'Negócios Sociais', en: 'Social Business', de: 'Sozialwesen' },
+  { pt: 'Educação', en: 'Education', de: 'Ausbildung' },
+  { pt: 'Filmes de Ficção', en: 'Fiction Films', de: 'Filme (Fiktion)' },
+  { pt: 'Filmes Documentários', en: 'Documentary Films', de: 'Dokumentarfilme' },
+  { pt: 'Filmes Universitários', en: 'Experimental Films', de: 'Experimental-Filme' }
+].each do |name|
+   category = Category.find_or_initialize_by_name_pt name[:pt]
+   category.update_attributes({
+     name_de: name[:de]
    })
  end
 
