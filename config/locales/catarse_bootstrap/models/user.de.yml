@@ -1,0 +1,13 @@
+ de:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              not_found: "Diese e-mail-Adresse existiert nicht in unserem System. Bitte versuchen Sie es ein weiteres Mal oder registrieren Sie sich neu."
+              taken: "Diese e-mail-Adresse ist bei uns bereits registriert, melden Sie sich einfach mit dieser Adresse an"
+              invalid: "ungültige e-Mail-Adresse"
+            password:
+              too_short: "Passwort-Bestätigung muss mindestens %{count} Zeichen beinhalten"
+              confirmation: "Passwort-Bestätigung stimmt nicht mit dem Passwort überein"
