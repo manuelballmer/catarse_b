@@ -8,7 +8,7 @@
   { pt: 'Humor', en: 'Humor', de: 'Humor' },
   { pt: 'Quadrinhos', en: 'Comicbooks', de: 'Comicbücher' },
   { pt: 'Dança', en: 'Dance', de: 'Tanz' },
-  { pt: 'Design', en: 'Design',, de: 'Design' },
+  { pt: 'Design', en: 'Design', de: 'Design' },
   { pt: 'Eventos', en: 'Events', de: 'Events' },
   { pt: 'Moda', en: 'Fashion', de: 'Mode' },
   { pt: 'Gastronomia', en: 'Gastronomy', de: 'Gastronomie' },
