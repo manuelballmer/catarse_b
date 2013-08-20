@@ -1,0 +1,109 @@
+en:
+  adm: &admin
+    confirm_dialog: 'Bist du sicher?'
+    projects:
+      index:
+        by_state: 'nach Status'
+        between_created_at: 'Erstellt von bis'
+        submit: 'Filter'
+        send_to_trash: 'Löschen'
+        send_to_draft: 'Als ENTWURF speichern!'
+        reject: 'Ablehnen!'
+        approve: 'Bewilligen!'
+        order_asc: 'Ziel abst'
+        order_desc: 'Ziel aufst.'
+        order_created_at: 'Eingereicht am'
+        menu: 'Admin: Projekte'
+    financials:
+      index:
+        submit: 'Filter'
+        by_state: 'By state'
+        by_progress: 'By progress %'
+        menu: 'Admin: Finanzen'
+    users:
+      index:
+        title: "Management backers"
+        menu: "Backers"
+        credits: "Credits"
+        credits_view: "Calculated credits"
+        id: "ID"
+        key: "Key"
+        submit: "Search"
+        has_credits_difference: "Discrepancy in credits"
+        total_backed: "backed"
+        total_backers: "backers"
+        total_backs: "backs"
+        total_users: "users"
+        total_credits: "credits"
+        total_credits_view: "calculated credits"
+        user: "User"
+        value: "Value"
+        provider: "Provider"
+    backers:
+      messages:
+        successful:
+          confirm: 'Backer confirmed!'
+          pendent: 'Backer unconfirmed!'
+          refund: 'Backer refunded!'
+          change_reward: 'Reward changed!'
+          hide: 'Backer hidden!'
+          cancel: 'Backer canceled!'
+          push_to_trash: 'Backer deleted!'
+      index:
+        push_to_trash: 'Delete backer'
+        cancel: 'Cancel backer'
+        refund_and_hide: 'Refund and hide'
+        backer_info: 'Info of backer %{key}'
+        payment_id: 'Payment ID'
+        payment_method: 'Payment method'
+        payment_fee: 'Payment method fee'
+        payment_choice: 'Payment choice'
+        payer_email: 'Payer email'
+        user_email: 'Catarse user email'
+        pending_to_refund: 'Pending to refund'
+        created_at: 'Created at'
+        title: "Backers management"
+        menu: "Backs"
+        anonymous: "Anonymous?"
+        confirmed: "Confirmed?"
+        credits: "Used credits?"
+        id: "ID"
+        key: "Key"
+        no_backers: "No backers found."
+        project: "Project"
+        refunded: "Refunded?"
+        requested_refund: "Requested refund?"
+        reward: "Reward"
+        no_reward: "No reward"
+        submit: "Search"
+        total_backed: "Total backed"
+        total_backers: "Total Backers"
+        total_backs: "Total Beiträge"
+        total_users: "Total Benutzer"
+        user: "Benutzer"
+        value: "Betrag"
+    statistics:
+      index:
+        menu: "Statistik"
+        title: "Statistik"
+        total_users: "Benutzer"
+        total_backs: "Backs"
+        total_backers: "Backers"
+        total_backed: "Backed"
+        total_projects: "Projekte"
+        total_projects_success: "Erfolgreich"
+        total_projects_online: "Online"
+      projects_by_week:
+        title: "Projekte eingereicht pro Woche"
+        current_period: "Letzte 8 Wochen"
+        previous_period: "Vorherige 8 Wochen"
+        last_year: "Letztes Jahr"
+      backers_by_week:
+        title: "Umsatz pro Woche"
+        current_period: "Letzte 8 Wochen"
+        previous_period: "Vorperiode"
+        last_year: "Letztes Jahr"
+
+  channels:
+    adm:
+      <<: *admin
