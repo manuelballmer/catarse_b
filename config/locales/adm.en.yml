@@ -18,7 +18,7 @@ en:
       index:
         submit: 'Filter'
         by_state: 'By state'
-        by_progress: By progress %
+        by_progress: 'By progress %'
         menu: 'Admin: Manage Financials'
     users:
       index:
@@ -30,15 +30,15 @@ en:
         key: "Key"
         submit: "Search"
         has_credits_difference: "Discrepancy in credits"
-        total_backed: backed
-        total_backers: backers
-        total_backs: backs
-        total_users: users
-        total_credits: credits
+        total_backed: "backed"
+        total_backers: "backers"
+        total_backs: "backs"
+        total_users: "users"
+        total_credits: "credits"
         total_credits_view: "calculated credits"
-        user: User
-        value: Value
-        provider: Provider
+        user: "User"
+        value: "Value"
+        provider: "Provider"
     backers:
       messages:
         successful:
