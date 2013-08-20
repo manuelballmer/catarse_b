@@ -8,10 +8,22 @@ class Category < ActiveRecord::Base
   end
 
   def self.array
-    order('name_'+ I18n.locale.to_s + ' ASC').collect { |c| [c.send('name_' + I18n.locale.to_s), c.id] }
+    x = I18n.locale
+    if x = "de-CH"
+      order('name_de'.to_s + ' ASC').collect { |c| [c.send('name_de'.to_s), c.id] }
+    else
+      order('name_'+ I18n.locale.to_s + ' ASC').collect { |c| [c.send('name_' + I18n.locale.to_s), c.id] }
+
+    end
   end
 
   def to_s
-    self.send('name_' + I18n.locale.to_s)
+    x = I18n.locale
+    if x = "de-CH"
+      self.send('name_de'.to_s)
+    else
+      self.send('name_' + I18n.locale.to_s)
+    end
+  
   end
 end
