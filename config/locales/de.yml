@@ -311,18 +311,18 @@ de:
       login_with_facebook: "sign in with your facebook account"
       remember_me: "Remember me and keep me connected."
     header:
-      blog: blog
-      help: help
-      signup: "sign up"
-      signin: login
-      explore: explore
-      submit_project: submit
-      profile: "my profile"
-      account: "my account"
+      blog: "Blog"
+      help: "Hilfe"
+      signup: "Registrieren"
+      signin: "Anmelden"
+      explore: "Entdecken"
+      submit_project: "Projekt einreichen"
+      profile: "mein Profil"
+      account: "mein Konto"
     user:
-      logout: Logout
-      my_credits: "My credit"
-  not_informed: "not informed"
+      logout: "Abmelden"
+      my_credits: "Mein Guthaben"
+  not_informed: "nicht informiert"
   notify_locale: "We identified your language by your browser. If you prefer another one, click on one of the flags on the right."
   on_the_spot:
     cancel: Cancel
@@ -330,10 +330,10 @@ de:
     tooltip: "Click to edit..."
   passwords:
     edit:
-      label_new_password: "New password"
-      submit: "Change password"
-      title: "Reset password"
-      site_title: "Change password"
+      label_new_password: "Neues Passwort"
+      submit: "Passwort ändern"
+      title: "Passwort zurücksetzen"
+      site_title: "Passwort ändern"
       subtitle: "You requested to reset your password. Fill your new password below and click \"Change Password\". If you did not request this password reset, just skip this page and your password will remain the same."
     email:
       content_html: " <p>Someone has requested a link to change your password, and you can do this through the link below.</p><p>%{link}</p><p>If you didn't request this, please ignore this email.</p><p>Your password won't change until you access the link above and create a new one.</p> "
@@ -792,7 +792,7 @@ de:
       user_social:
         email: "Send me an email"
         facebook: "Profile on facebook"
-        twitter: "Profile on twiiter"
+        twitter: "Profile on twitter"
     backs:
       anonymous: "Anonymous back."
       no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time! :D"
