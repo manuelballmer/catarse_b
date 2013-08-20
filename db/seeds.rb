@@ -1,40 +1,40 @@
 # coding: utf-8
 
 [
-  { pt: 'Arte', en: 'Art' },
-  { pt: 'Artes plásticas', en: 'Visual Arts' },
-  { pt: 'Circo', en: 'Circus' },
-  { pt: 'Comunidade', en: 'Community' },
-  { pt: 'Humor', en: 'Humor' },
-  { pt: 'Quadrinhos', en: 'Comicbooks' },
-  { pt: 'Dança', en: 'Dance' },
-  { pt: 'Design', en: 'Design' },
-  { pt: 'Eventos', en: 'Events' },
-  { pt: 'Moda', en: 'Fashion' },
-  { pt: 'Gastronomia', en: 'Gastronomy' },
-  { pt: 'Cinema & Vídeo', en: 'Film & Video' },
-  { pt: 'Jogos', en: 'Games' },
-  { pt: 'Jornalismo', en: 'Journalism' },
+  { pt: 'Arte', en: 'Art', de: 'Kunst' },
+  { pt: 'Artes plásticas', en: 'Visual Arts', de: 'Visuelle Kunst' },
+  { pt: 'Circo', en: 'Circus', de: 'Zirkus' },
+  { pt: 'Comunidade', en: 'Community', de: 'Komunal / Gemeinde' },
+  { pt: 'Humor', en: 'Humor', de: 'Humor' },
+  { pt: 'Quadrinhos', en: 'Comicbooks', de: 'Comicbücher' },
+  { pt: 'Dança', en: 'Dance', de: 'Tanz' },
+  { pt: 'Design', en: 'Design',, de: 'Design' },
+  { pt: 'Eventos', en: 'Events', de: 'Events' },
+  { pt: 'Moda', en: 'Fashion', de: 'Mode' },
+  { pt: 'Gastronomia', en: 'Gastronomy', de: 'Gastronomie' },
+  { pt: 'Cinema & Vídeo', en: 'Film & Video', de: 'Film & Video' },
+  { pt: 'Jogos', en: 'Games', de: 'Spiele' },
+  { pt: 'Jornalismo', en: 'Journalism', de: 'Journalismus' },
   { pt: 'Música', en: 'Music' },
-  { pt: 'Fotografia', en: 'Photography' },
-  { pt: 'Ciência e Tecnologia', en: 'Science & Technology' },
-  { pt: 'Teatro', en: 'Theatre' },
-  { pt: 'Esporte', en: 'Sport' },
-  { pt: 'Web', en: 'Web' },
-  { pt: 'Carnaval', en: 'Carnival' },
-  { pt: 'Arquitetura & Urbanismo', en: 'Architecture & Urbanism' },
+  { pt: 'Fotografia', en: 'Photography', de: 'Fotografie' },
+  { pt: 'Ciência e Tecnologia', en: 'Science & Technology', de: 'Wissenschaft & Technologie' },
+  { pt: 'Teatro', en: 'Theatre', de: 'Theater' },
+  { pt: 'Esporte', en: 'Sport', de: 'Sport' },
+  { pt: 'Web', en: 'Web', de: 'Web' },
+  { pt: 'Carnaval', en: 'Carnival', de: 'Fasnacht' },
+  { pt: 'Arquitetura & Urbanismo', en: 'Architecture & Urbanism', de: 'Architektur & Raumplanung' },
   { pt: 'Literatura', en: 'Literature' },
-  { pt: 'Mobilidade e Transporte', en: 'Mobility & Transportation' },
-  { pt: 'Meio Ambiente', en: 'Environment' },
-  { pt: 'Negócios Sociais', en: 'Social Business' },
-  { pt: 'Educação', en: 'Education' },
-  { pt: 'Filmes de Ficção', en: 'Fiction Films' },
-  { pt: 'Filmes Documentários', en: 'Documentary Films' },
-  { pt: 'Filmes Universitários', en: 'Experimental Films' }
+  { pt: 'Mobilidade e Transporte', en: 'Mobility & Transportation', de: 'Mobilität & Transport' },
+  { pt: 'Meio Ambiente', en: 'Environment', de: 'Umwelt & Natur' },
+  { pt: 'Negócios Sociais', en: 'Social Business', de: 'Sozialwesen' },
+  { pt: 'Educação', en: 'Education', de: 'Ausbildung' },
+  { pt: 'Filmes de Ficção', en: 'Fiction Films', de: 'Filme (Fiktion)' },
+  { pt: 'Filmes Documentários', en: 'Documentary Films', de: 'Dokumentarfilme' },
+  { pt: 'Filmes Universitários', en: 'Experimental Films', de: 'Experimental-Filme' }
 ].each do |name|
    category = Category.find_or_initialize_by_name_pt name[:pt]
    category.update_attributes({
-     name_en: name[:en]
+     name_en: name[:en], name_de: name[:de]
    })
  end
 
@@ -50,25 +50,25 @@
 end
 
 {
-  company_name: 'Catarse',
-  host: 'catarse.me',
-  base_url: "http://catarse.me",
-  blog_url: "http://blog.catarse.me",
-  email_contact: 'contato@catarse.me',
-  email_payments: 'financeiro@catarse.me',
-  email_projects: 'projetos@catarse.me',
-  email_system: 'system@catarse.me',
-  email_no_reply: 'no-reply@catarse.me',
-  facebook_url: "http://facebook.com/catarse.me",
-  facebook_app_id: '173747042661491',
-  twitter_username: "catarse",
+  company_name: 'Prototyp BLKB Crowdfunding',
+  host: '141.101.32.173:3000',
+  base_url: "http://141.101.32.173:3000/",
+  blog_url: "http://blog.blkb.ch",
+  email_contact: 'manuel.ballmer@blkb.ch',
+  email_payments: 'manuel.ballmer@blkb.ch',
+  email_projects: 'manuel.ballmer@blkb.ch',
+  email_system: 'manuel.ballmer@blkb.ch',
+  email_no_reply: 'manuel.ballmer@blkb.ch',
+  facebook_url: "http://facebook.com/ManuelBallmer",
+  facebook_app_id: '486521634775707',
+  twitter_username: "ManuelBallmer",
   mailchimp_url: "http://catarse.us5.list-manage.com/subscribe/post?u=ebfcd0d16dbb0001a0bea3639&amp;id=149c39709e",
-  catarse_fee: '0.13',
-  support_forum: 'http://suporte.catarse.me/',
-  base_domain: 'catarse.me',
+  catarse_fee: '0.03',
+  support_forum: 'http://www.blkb.ch/index/ueber-uns/uu-kontakt.htm',
+  base_domain: 'localhost',
   uservoice_secret_gadget: 'change_this',
   uservoice_key: 'uservoice_key',
-  project_finish_time: '02:59:59'
+  project_finish_time: '00:01:59'
 }.each do |name, value|
    conf = Configuration.find_or_initialize_by_name name
    conf.update_attributes({
@@ -82,11 +82,16 @@ Channel.find_or_create_by_name!(
   permalink: "sample-permalink",
   description: "Lorem Ipsum"
 )
+Channel.find_or_create_by_name!(
+  name: "www.blkb.ch",
+  permalink: "http://141.101.32.173:3000/blkb",
+  description: "Die BLKB Website..."
+)
 
 
 OauthProvider.find_or_create_by_name!(
   name: 'facebook',
-  key: 'your_facebook_app_key',
-  secret: 'your_facebook_app_secret',
-  path: 'facebook'
+  key: '486521634775707',
+  secret: 'e94e0b494e33baf0f763af0cc4571157',
+  path: 'test_catarse'
 )
