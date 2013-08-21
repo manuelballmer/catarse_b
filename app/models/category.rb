@@ -1,4 +1,5 @@
 class Category < ActiveRecord::Base
+  attr_accessible :name_pt, :name_en, :name_de
   has_many :projects
   validates_presence_of :name_pt
   validates_uniqueness_of :name_pt
