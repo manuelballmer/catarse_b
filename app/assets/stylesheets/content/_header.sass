@@ -15,13 +15,15 @@
     a
       display: inline-block
       font-family: "Nunito"
+      font-weight: 300
       text-decoration: none
     &.actions
       +grid(4)
       margin-top: 20px
       a
         color: $blk_schw80
-        font-size: 18px
+        font-size: 16px
+        font-weight: 300
         margin-right: 27px
         &:last-child
           margin-right: 0
@@ -41,7 +43,8 @@
         text-transform: lowercase
         color: $blk_schw80
         font-size: 14px
-        margin-right: 12px
+        font-weight: 300
+		margin-right: 12px
         &.my_profile_link
           width: 13	0px
           display: block
@@ -55,6 +58,7 @@
             float: left
             margin-top: -14px
             margin-right: 5px
+            background: url($images_path+"user.png") left top no-repeat
 
             &:hover
               +box-shadow(rgba(black, 0.6) 1px 1px 2px inset)
@@ -73,7 +77,7 @@
     +grid(4)
     margin-top: 18px
     form
-      width: 220px
+      width: 200px
       height: 22px
       +border-radius(0px)
       border: 1px $minimal_gryn solid
@@ -81,7 +85,7 @@
       background: white
       input[type="text"]
         border: none
-        width: 190px
+        width: 180px
         float: left
         margin-left: 3px
         margin-top: 3px
