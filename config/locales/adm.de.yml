@@ -1,6 +1,6 @@
-en:
+de:
   adm: &admin
-    confirm_dialog: 'Bist du sicher?'
+    confirm_dialog: "Bist du sicher?"
     projects:
       index:
         by_state: 'nach Status'
@@ -17,19 +17,19 @@ en:
     financials:
       index:
         submit: 'Filter'
-        by_state: 'By state'
-        by_progress: 'By progress %'
+        by_state: 'nach Status'
+        by_progress: 'nach Fortschritt %'
         menu: 'Admin: Finanzen'
     users:
       index:
         title: "Management backers"
         menu: "Backers"
-        credits: "Credits"
-        credits_view: "Calculated credits"
+        credits: "Guthaben"
+        credits_view: "Berechnete Guthaben"
         id: "ID"
         key: "Key"
         submit: "Search"
-        has_credits_difference: "Discrepancy in credits"
+        has_credits_difference: "Überzug / Differenz"
         total_backed: "backed"
         total_backers: "backers"
         total_backs: "backs"
@@ -61,7 +61,7 @@ en:
         payer_email: 'Payer email'
         user_email: 'Catarse user email'
         pending_to_refund: 'Pending to refund'
-        created_at: 'Created at'
+        created_at: "Created at"
         title: "Backers management"
         menu: "Backs"
         anonymous: "Anonymous?"
@@ -75,7 +75,7 @@ en:
         requested_refund: "Requested refund?"
         reward: "Reward"
         no_reward: "No reward"
-        submit: "Search"
+        submit: "Suche"
         total_backed: "Total backed"
         total_backers: "Total Backers"
         total_backs: "Total Beiträge"
@@ -86,20 +86,20 @@ en:
       index:
         menu: "Statistik"
         title: "Statistik"
-        total_users: "Benutzer"
-        total_backs: "Backs"
-        total_backers: "Backers"
-        total_backed: "Backed"
-        total_projects: "Projekte"
-        total_projects_success: "Erfolgreich"
-        total_projects_online: "Online"
+        total_users: "Total Benutzer"
+        total_backs: "Total Backs"
+        total_backers: "Total Backers"
+        total_backed: "Total Backed"
+        total_projects: "Total Projekte"
+        total_projects_success: "Total Erfolgreich"
+        total_projects_online: "Total Online"
       projects_by_week:
         title: "Projekte eingereicht pro Woche"
         current_period: "Letzte 8 Wochen"
         previous_period: "Vorherige 8 Wochen"
         last_year: "Letztes Jahr"
       backers_by_week:
-        title: "Umsatz pro Woche"
+        title: "Total Umsatz pro Woche"
         current_period: "Letzte 8 Wochen"
         previous_period: "Vorperiode"
         last_year: "Letztes Jahr"
