@@ -368,7 +368,7 @@ de:
       waiting_confirmation: "wartend"
       waiting_funds: "wartend"
       not_reached_goal: "wartend"
-      draf: "draft"
+      draft: "draft"
   projects:
     box:
       by: "by"
