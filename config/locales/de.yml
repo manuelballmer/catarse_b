@@ -99,7 +99,7 @@ de:
       near: "Projekte in meiner Umgebung"
   sidebar:
     titles:
-      blog: blog
+      blog: "blog"
       facebook: "Folgen Sie uns bereits auf Facebook?"
       newsletter: "Interessieren Sie sich für einen BLKB Newsletter?"
       faq: "Fragen oder Anliegen?"
@@ -108,15 +108,15 @@ de:
       newsletter: "abonnieren"
   sections:
     near:
-      title: near me
+      title: "in meiner Nähe"
     selection:
-      title: selection
+      title: "ausgewählte"
     expiring:
-      title: expiring
+      title: "auslaufende"
     recents:
-      title: recent
+      title: "neueste"
     partners:
-      title: partners
+      title: "Partner"
   accept_terms_html: "I have read and accepted the %{link}."
   activerecord:
     errors:
@@ -143,13 +143,13 @@ de:
         how_know: "How did you hear about Catarse?"
         more_links: 'Where can we find more about you and your project?'
       reward:
-        description: Description
+        description: "Description"
         maximum_backers: "Maximum backers"
         minimum_value: "Maximal Betrag"
       user:
         address_city: "Ort"
-        address_complement: Complement
-        address_neighbourhood: Neighbourhood
+        address_complement: "Complement"
+        address_neighbourhood: "Neighbourhood"
         address_number: "Hausnummer"
         address_state: "Bundesland"
         address_street: "Strasse"
@@ -161,16 +161,16 @@ de:
         moip_login: 'MoIP Login'
         moip_login_hint: '(How to create an account)'
         current_password: "Current password"
-        email: Email
+        email: "Email"
         full_name: "Full name / Company Name"
         bio: 'Mini Bio'
-        name: Name
-        password: Password
+        name: "Name"
+        password: "Password"
         password_confirmation: "Password Confirmation"
         phone_number: "Mobile phone number"
         newsletter: 'I want receive news about Catarse'
     models:
-      backer: Backer
+      backer: "Backer"
       category: "Kategorie"
       project: "Projekt"
       reward: "Beitrag"
@@ -180,10 +180,10 @@ de:
     should_not_back_if_maximum_backers_been_reached: "has reached its maximum backers"
     value_must_be_at_least_rewards_value: "must be at least %{minimum_value} for the selected reward"
     project_should_be_online: "You cannot back a project that is not online"
-  backer_plural: backers
-  project_plural: projects
-  project_singular: project
-  backer_singular: backer
+  backer_plural: "backers"
+  project_plural: "projects"
+  project_singular: "project"
+  backer_singular: "backer"
   click_here: "Klicken Sie hier"
   clicking_here: "hier klicken"
   click_term: 'Geschäftsbedingungen'
@@ -207,7 +207,7 @@ de:
       refunds_title: "Payments that can be refunded"
       request_refund: "Beitrag leisten"
       requested_refund: "Beitrag geleistet"
-      status: Status
+      status: "Status"
       title: "Mein Guthaben"
       value: "Betrag"
     refund:
@@ -236,28 +236,28 @@ de:
     index:
       title: "Curated pages"
     show:
-      backed: backed
-      reached: reached
+      backed: "backed"
+      reached: "erreicht"
   error: "Ooops! There was an error. Please try again."
   explore:
     index:
-      near: 'Near me'
-      categories: Categories
-      expiring: "Final countdown"
-      quick_explore: "Quick search"
-      recent: Recent
-      recommended: Recommended
-      subtitle: "Explore the projects, find the ones that touch you, and make them happen!"
-      successful: Successful
-      title: "Discover amazing projects"
-    title: "Explore the projects"
+      near: 'in Meiner Nähe'
+      categories: "Kategorien"
+      expiring: "Kurz vor Ablauf"
+      quick_explore: "Suche"
+      recent: "Neueste"
+      recommended: "Empfohlen"
+      subtitle: "Sehen sie sich die Projekte an. Falls sie eines berührt, helfen Sie mit dieses zu verwirklichen"
+      successful: "Erfolgreich"
+      title: "Entdecken Sie aktuelle Projekte"
+    title: "Entdecken Sie aktuelle Projekte"
     project:
       empty: "Hey, we didn't find any project with the text you searched. Wanna try some new words? =D"
   formtastic:
     hints:
       backer:
         credits: "You have <strong>%{credits}</strong> in credits and can back with up to this amount without needing to make a new payment."
-        value: "You chose the amount ;) starting with R$10, any amount is great."
+        value: "Sie wählen den Betrag ;) Start bei CHF 10, jeder Franken zählt."
       project:
         video_url_edit: 'Paste here the URL of your Vimeo video.'
         about: "Tell us about what inspired you to come up with this project . Be objective end charming, present your readers with something that moves them while being very transparent over the expectations on your project!"
@@ -295,7 +295,7 @@ de:
         goal: "How much do you intend to raise? (use only numbers)"
         name: "Project's Name"
         online_days: 'How Many Campaign Days?'
-        video_url: Video
+        video_url: "Video"
         uploaded_image: "Project thumbnail"
       reward:
         maximum_backers: "Maximum backers (optional)"
@@ -362,16 +362,16 @@ de:
         unsuccessful_text: "The project %{link} that you backed wasn't funded. Maybe next time!"
     video_regex_validation: "only Vimeo URLs are allowed"
     display_status:
-      expired: expired
-      failed: "not funded"
-      successful: funded
-      waiting_confirmation: waiting
-      waiting_funds: waiting
-      not_reached_goal: waiting
+      expired: "abgelaufen"
+      failed: "nicht erfolgreich"
+      successful: "erfolgreich"
+      waiting_confirmation: "wartend"
+      waiting_funds: "wartend"
+      not_reached_goal: "wartend"
       draf: "draft"
   projects:
     box:
-      by: by
+      by: "by"
     admin_fields:
       title: "Admin fields"
     back_project:
@@ -444,7 +444,7 @@ de:
         content_html: "Want to have your project selected? Don't forget to read %{link}."
         help_link: "our guide"
       rewards_description: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
-      rewards_title: Rewards
+      rewards_title: "Rewards"
       submit: "Submit project"
     index_header:
       subtitle: "Fund projects collaboratively and become part of something bigger. Promote a collective catharsis! You're the missing part in this story."
@@ -457,42 +457,42 @@ de:
       guidelines_subtitle: "Getting to know Catarse"
     pending:
       can_finish: "Can finish?"
-      finished: Finished?
+      finished: "Finished?"
       home_page: "Home page?"
-      id: Id
-      name: Name
+      id: "Id"
+      name: "Name"
       no_projects: "No projects found."
-      order: Order
-      project: Project
-      slug: Slug
-      recommended: Recommended?
-      rejected: Rejected?
-      submit: Search
+      order: "Order"
+      project: "Project"
+      slug: "Slug"
+      recommended: "Recommended?"
+      rejected: "Rejected?"
+      submit: "Search"
       title: "Project management"
-      user: User
-      visible: Visible?
+      user: "User"
+      visible: "Visible?"
     pending_backers:
-      anonymous: Anonymous?
-      confirmed: Confirmed?
+      anonymous: "Anonymous?"
+      confirmed: "Confirmed?"
       credits: "Used credits?"
-      id: Id
-      key: Key
+      id: "Id"
+      key: "Key"
       no_backers: "No backers found."
-      project: Project
-      refunded: Refunded?
+      project: "Project"
+      refunded: "Refunded?"
       requested_refund: "Requested refund?"
-      reward: Reward
-      submit: Search
+      reward: "Reward"
+      submit: "Search"
       title: "Backers management"
-      total_backed: backed
-      total_backers: backers
-      total_backs: backs
-      total_users: users
-      user: User
-      value: Value
+      total_backed: "backed"
+      total_backers: "backers"
+      total_backs: "backs"
+      total_users: "users"
+      user: "User"
+      value: "Value"
     project:
-      backed: backed
-      reached: reached
+      backed: "backed"
+      reached: "reached"
     project_backers:
       empty: "Nobody backed this project so far. How about being the first one?"
     project_header:
@@ -530,17 +530,17 @@ de:
         all_backers_without_reward: "all backers that don't select any reward"
         link_reward: 'Download the report of backers that selected the reward'
       menu:
-        about: About
-        backers: Backers
-        comments: Comments
-        updates: Updates
-        edit: Edit
-        reports: Reports
+        about: "Über das Projekt"
+        backers: "Backers"
+        comments: "Kommentare"
+        updates: "Updates"
+        edit: "Bearbeiten"
+        reports: "Reports"
         add_reward: 'Add Rewards'
       share:
-        embed: embed
+        embed: "embed"
         embed_title: "Embed this project on your site"
-        link: Link
+        link: "Link"
         link_title: "Share the link"
         take_a_look: "Check out the project"
         title: "Be part of it and share this project"
@@ -596,16 +596,16 @@ de:
       site_title: "Sign up"
       submit: "Sign Up"
       title: "Sign up using you email"
-  remaining_plural: left
-  remaining_singular: left
-  remove: remove
+  remaining_plural: "left"
+  remaining_singular: "left"
+  remove: "remove"
   require_admin: "You must be admin to perform this action."
   require_login: "You must be logged in to perform this action."
   require_permission: "You don't have permission to perform this action."
   reward:
     display_remaining: "%{remaining} of %{maximum} available"
     dont_want: "I don't want a reward"
-    limited: Limited
+    limited: "Limited"
     sold_out: "Sold out"
   sessions:
     auth:
@@ -773,7 +773,7 @@ de:
       many: "Backed this and other %{total} projects"
       one: "Backed only this project until now"
       two: "Backed this and 1 other project"
-    no_name: Unnamed
+    no_name: "Unnamed"
     google_account: "Google Account"
   users:
     set_email:
@@ -781,14 +781,14 @@ de:
       title: 'Define your email address'
       submit: 'Save my email and proceed'
     show:
-      attention: Attention
+      attention: "Achtung"
       tabs:
         backed_projects: "Backed projects"
         created_projects: "Created projects"
-        comments: Comments
-        credits: Credits
-        settings: Settings
-        unsubscribes: Notifications
+        comments: "Comments"
+        credits: "Guthaben"
+        settings: "Settings"
+        unsubscribes: "Notifications"
       user_social:
         email: "Send me an email"
         facebook: "Profile on facebook"
@@ -835,12 +835,12 @@ de:
     notification_email:
       alt: "You must enable images in order to correctly view this message."
       forward: "Foward to your friends"
-      hello: Hi
+      hello: "Hi"
       intro: "You are receiving this message because you signed up on Catarse"
       mailee: "Message delivered by Mailee.me"
       salutation: "Big hugs,"
       signature: "Catarse's Team"
-      unsubscribe: Unsubscribe
+      unsubscribe: "Unsubscribe"
       unsubscribe_long: "If you don't want to receive these emails"
       weblink: "View on the web"
       whitelist: "Add contact"
