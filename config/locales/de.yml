@@ -392,8 +392,8 @@ de:
       review:
         error: "Ooops. There was an error while registering your back. Please try again."
         international:
-        	user_document_label: "Personalausweis"
-        	button: "Weiter"
+          user_document_label: "Personalausweis"
+          button: "Weiter"
       show:
         error: "Ooops. You can only access this page after backing a project."
         moip_message: "Your transaction is “Authorized” and you Moip code is “%{code}″.<br>If you have any questions about this transaction, contact Moip directly."
