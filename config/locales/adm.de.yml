@@ -28,16 +28,16 @@ de:
         credits_view: "Berechnete Guthaben"
         id: "ID"
         key: "Key"
-        submit: "Search"
+        submit: "Suchen"
         has_credits_difference: "Überzug / Differenz"
         total_backed: "backed"
         total_backers: "backers"
         total_backs: "backs"
-        total_users: "users"
-        total_credits: "credits"
-        total_credits_view: "calculated credits"
+        total_users: "Users"
+        total_credits: "Guthaben"
+        total_credits_view: "berechnete Guthaben"
         user: "User"
-        value: "Value"
+        value: "Betrag"
         provider: "Provider"
     backers:
       messages:
@@ -50,27 +50,27 @@ de:
           cancel: 'Backer canceled!'
           push_to_trash: 'Backer deleted!'
       index:
-        push_to_trash: 'Delete backer'
-        cancel: 'Cancel backer'
+        push_to_trash: 'Lösche backer'
+        cancel: 'Abbrechen backer'
         refund_and_hide: 'Refund and hide'
         backer_info: 'Info of backer %{key}'
-        payment_id: 'Payment ID'
-        payment_method: 'Payment method'
+        payment_id: 'Zahlung ID'
+        payment_method: 'Zahlungsmethode'
         payment_fee: 'Payment method fee'
         payment_choice: 'Payment choice'
         payer_email: 'Payer email'
         user_email: 'Catarse user email'
         pending_to_refund: 'Pending to refund'
-        created_at: "Created at"
+        created_at: "Erstellt am"
         title: "Backers management"
         menu: "Backs"
-        anonymous: "Anonymous?"
-        confirmed: "Confirmed?"
-        credits: "Used credits?"
+        anonymous: "Anonym?"
+        confirmed: "Bestätigt?"
+        credits: "Benutzt Guthaben?"
         id: "ID"
         key: "Key"
-        no_backers: "No backers found."
-        project: "Project"
+        no_backers: "Keine Backers gefunden."
+        project: "Projekt"
         refunded: "Refunded?"
         requested_refund: "Requested refund?"
         reward: "Reward"

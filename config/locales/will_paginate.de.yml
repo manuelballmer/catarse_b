@@ -1,0 +1,5 @@
+de:
+  will_paginate:
+    next: "Nächste »"
+    page_gap: "..."
+    previous: "« Vorherige"

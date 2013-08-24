@@ -368,12 +368,12 @@ de:
       waiting_confirmation: "wartend"
       waiting_funds: "wartend"
       not_reached_goal: "wartend"
-      draft: "draft"
+      draft: "Entwurf"
   projects:
     box:
-      by: "by"
+      by: "von"
     admin_fields:
-      title: "Admin fields"
+      title: "Admin Felder"
     back_project:
       display_status:
         reached_goal: "This project will be successful and funded on %{date}"
@@ -599,8 +599,8 @@ de:
       site_title: "Sign up"
       submit: "Sign Up"
       title: "Sign up using you email"
-  remaining_plural: "left"
-  remaining_singular: "left"
+  remaining_plural: "noch"
+  remaining_singular: "noch"
   remove: "remove"
   require_admin: "You must be admin to perform this action."
   require_login: "You must be logged in to perform this action."
