@@ -9,7 +9,9 @@ pt:
         login: "Faça seu login"
       form:
         labels:
+          password: "Password"
           show_password: 'Exibir senha'
+          email: "Email"
           or: "ou"
         hint:
           password_length: 'Mínimo 6 caracteres'

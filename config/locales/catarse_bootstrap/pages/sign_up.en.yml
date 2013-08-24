@@ -9,7 +9,9 @@ en:
         login: "Log in"
       form:
         labels:
+          password: "Password"
           show_password: 'Show password'
+          email: "Email"
           or: "or"
         hint:
           password_length: 'Must be at least 6 characters.'

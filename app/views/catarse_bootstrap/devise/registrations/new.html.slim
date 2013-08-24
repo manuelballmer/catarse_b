@@ -14,7 +14,8 @@
         = link_to t('pages.sign_up.form.inputs.facebook'), user_omniauth_authorize_path(provider: :facebook, locale: nil), class: [:button, :facebook, 'large-16', 'columns']
 
         .separator
-          p | t('pages.sign_up.form.labels.or')
+          p
+            = t 'pages.sign_up.form.labels.or'
 
       .clearfix
 
@@ -26,11 +27,11 @@
             = f.text_field :name, required: true
 
           p
-            = f.label :email
+            = f.label :email, t('pages.sign_up.form.labels.email')
             = f.text_field :email, required: true
 
           p
-            = f.label :password
+            = f.label :password, t('pages.sign_up.form.labels.password')
             span.right.text-right.inline-hint
               = t('pages.sign_up.form.hint.password_length')
             = f.password_field :password, required: true

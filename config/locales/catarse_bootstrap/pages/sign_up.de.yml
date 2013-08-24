@@ -1,7 +1,7 @@
 de:
   pages:
     sign_up:
-      have_account_html: "Noch kein Benutzerkonto erstellt? <strong>%{link}</strong>"
+      have_account_html: "Ich besitze bereits ein Benutzerkonto: <strong>%{link}</strong>"
       titles:
         site: 'Registrierung'
         header: 'Registrierung'
@@ -9,7 +9,9 @@ de:
         login: "anmelden"
       form:
         labels:
+          password: "Passwort"
           show_password: 'Zeige Passwort'
+          email: "E-Mail-Adresse"
           or: "oder"
         hint:
           password_length: 'mindestens 6 Zeichen lang'
