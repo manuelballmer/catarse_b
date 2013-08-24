@@ -15,3 +15,5 @@ de:
         inputs:
           submit: 'Registriere mich'
           facebook: 'Registrierung mit Facebook'
+        separator:
+          or: "oder"

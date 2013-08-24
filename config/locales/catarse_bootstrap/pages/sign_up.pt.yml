@@ -15,3 +15,5 @@ pt:
         inputs:
           submit: 'Efetuar cadastro'
           facebook: 'Entrar com Facebook'
+        separator:
+          or: "ou"
