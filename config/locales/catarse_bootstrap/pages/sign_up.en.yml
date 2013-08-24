@@ -10,10 +10,9 @@ en:
       form:
         labels:
           show_password: 'Show password'
+          or: "or"
         hint:
           password_length: 'Must be at least 6 characters.'
         inputs:
           submit: 'Sign me up'
-          facebook: 'Sign up with Facebook'
-        separator:
-          or: "or" 
+          facebook: 'Sign up with Facebook' 

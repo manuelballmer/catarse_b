@@ -10,10 +10,9 @@ pt:
       form:
         labels:
           show_password: 'Exibir senha'
+          or: "ou"
         hint:
           password_length: 'Mínimo 6 caracteres'
         inputs:
           submit: 'Efetuar cadastro'
           facebook: 'Entrar com Facebook'
-        separator:
-          or: "ou"

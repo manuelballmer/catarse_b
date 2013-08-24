@@ -10,10 +10,9 @@ de:
       form:
         labels:
           show_password: 'Zeige Passwort'
+          or: "oder"
         hint:
-          password_length: 'Das Passwort muss mindestens 6 Zeichen umfassen'
+          password_length: 'mindestens 6 Zeichen lang'
         inputs:
           submit: 'Registriere mich'
           facebook: 'Registrierung mit Facebook'
-        separator:
-          or: "oder"
