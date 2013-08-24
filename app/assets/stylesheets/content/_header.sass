@@ -7,7 +7,7 @@
     +grid(4)
     +alpha
     margin-right: 20px
-    height: 26px
+    height: 54px
     border: none
     background: url($images_path+"logo.png") left top no-repeat
     text-indent: -9999em
@@ -19,39 +19,38 @@
       text-decoration: none
     &.actions
       +grid(4)
-      margin-top: 10px
+      margin-top: 20px
       a
-        color: $blk_schw80
-        font-size: 14px
-        font-weight: 300
-        margin-right: 22px
+        color: $ultra_gryn
+        font-size: 18px
+        margin-right: 27px
         &:last-child
           margin-right: 0
         &:hover
           text-decoration: underline
         &.explore
           background: url($images_path+"explore_icon23x15.png") left 3px no-repeat
-          text-indent: 25px
+          text-indent: 30px
         &.submit_project
-          background: url($images_path+"submit_project_icon25x13.png") left 3px no-repeat
-          text-indent: 25px
+          background: url($images_path+"submit_project_icon25x13.png") left 4px no-repeat
+          text-indent: 30px
     &.menu
       +grid(4)
-      margin-top: 10px
+      margin-top: 20px
       a
         font-family: "Nunito"
-        text-transform: lowercase
-        color: $blk_schw80
-        font-size: 14px
         font-weight: 300
+        text-transform: lowercase
+        color: $ultra_gryn
+        font-size: 14px
         margin-right: 12px
         &.my_profile_link
-          width: 13	0px
+          width: 130px
           display: block
           float: right
           margin-right: 0
           img.profile_picture
-            border: 1px $blk_schw80
+            border: 1px $ultra_gryn
             +box-shadow(rgba(black, 0.3) 1px 1px 2px)
             +transition(all, 0.5s)
             position: relative
@@ -71,20 +70,20 @@
         &:last-child
           margin-right: none
         &:hover
-          color: $orange
+          color: $pink
   .search
     +grid(4)
     margin-top: 18px
     form
-      width: 200px
+      width: 220px
       height: 22px
-      +border-radius(0px)
+      +border-radius(8px)
       border: 1px $minimal_gryn solid
       // +box-shadow(rgba(black, 0.1) 1px 1px 2px)
       background: white
       input[type="text"]
         border: none
-        width: 180px
+        width: 190px
         float: left
         margin-left: 3px
         margin-top: 3px
