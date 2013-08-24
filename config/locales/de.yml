@@ -314,9 +314,9 @@ de:
       blog: "Blog"
       help: "Hilfe"
       signup: "Registrieren"
-      signin: "Anmelden"
-      explore: "Entdecken"
-      submit_project: "Projekt einreichen"
+      signin: "login"
+      explore: "Portfolio"
+      submit_project: "Projektstart"
       profile: "mein Profil"
       account: "mein Konto"
     user:
