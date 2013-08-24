@@ -14,9 +14,7 @@
         = link_to t('pages.sign_up.form.inputs.facebook'), user_omniauth_authorize_path(provider: :facebook, locale: nil), class: [:button, :facebook, 'large-16', 'columns']
 
         .separator
-          p
-//            | t('pages.sign_up.form.labels.or')
-//            t('pages.sign_up.form.labels.or')
+          p | t('pages.sign_up.form.labels.or')
 
       .clearfix
 
