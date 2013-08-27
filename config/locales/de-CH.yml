@@ -241,7 +241,7 @@ de:
   error: "Ooops! There was an error. Please try again."
   explore:
     index:
-      near: 'in Meiner Nähe'
+      near: 'in meiner Nähe'
       categories: "Kategorien"
       expiring: "Kurz vor Ablauf"
       quick_explore: "Suche"

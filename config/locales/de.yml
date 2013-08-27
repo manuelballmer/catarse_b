@@ -241,7 +241,7 @@ de:
   error: "Ooops! There was an error. Please try again."
   explore:
     index:
-      near: 'in Meiner Nähe'
+      near: 'in meiner Nähe'
       categories: "Kategorien"
       expiring: "Kurz vor Ablauf"
       quick_explore: "Suche"
@@ -367,6 +367,7 @@ de:
       successful: "erfolgreich"
       waiting_confirmation: "wartend"
       waiting_funds: "wartend"
+      reached_goal: "Betrag erreicht"
       not_reached_goal: "wartend"
       draft: "Entwurf"
   projects:
@@ -376,24 +377,28 @@ de:
       title: "Admin Felder"
     back_project:
       display_status:
-        reached_goal: "This project will be successful and funded on %{date}"
+        reached_goal: "Dieses Projekt wird erfolgreich sein und kommt zustande am %{date}"
         not_reached_goal: "This project will only be funded if at least %{goal} is backed until %{date}"
-        failed: "This project didn't reach the goal of %{goal} until %{date} and wasn't funded"
-        successful: "This project was successful and was funded on %{date}"
-        waiting_funds: "Waiting confirmation from payments to know if this project will be funded."
-        draft: "This project is in draft mode and is not open to backers yet."
+        failed: "Dieses Projekt erreichte das Ziel von %{goal} bis am %{date} leider nicht und kam nicht zustande"
+        successful: "Dieses Projekt kam erfolgreich zustande am %{date}"
+        waiting_funds: "Warten auf Bestätigung der Zahlungen um zu wissen ob das Projekt zustande kommt."
+        draft: "Dieses Projekt ist im Entwurfs-Modus und noch nicht offen für Backers."
       reached_of: "erreicht von"
       submit: "Back dieses Projekt"
     backer:
       anonymous_backer: "Anonymer Backer"
-      anonymous_description: "Opted to remain incognito"
-      no_reward: "This backer has not picked a reward"
+      anonymous_description: "wählte die Anonymität"
+      no_reward: "Dieser Backer hat kein Reward ausgewählt"
     backers:
       review:
-        error: "Ooops. There was an error while registering your back. Please try again."
+        error: "Ups. Während der Verbuchung ihres Backs gab es ein Fehler. Bitte versuchen Sie es ein weiteres Mal."
         international:
           user_document_label: "Benutzeridentifikation"
           button: "Weiter"
+      backer:
+        anonymous_backer: "Anonymer Backer"
+        anonymous_description: "wählte die Anonymität"
+        no_reward: "Dieser Backer hat kein Reward ausgewählt"
       show:
         error: "Ooops. You can only access this page after backing a project."
         moip_message: "Your transaction is “Authorized” and you Moip code is “%{code}″.<br>If you have any questions about this transaction, contact Moip directly."
@@ -475,47 +480,47 @@ de:
       user: "User"
       visible: "Visible?"
     pending_backers:
-      anonymous: "Anonymous?"
-      confirmed: "Confirmed?"
-      credits: "Used credits?"
+      anonymous: "Anonym?"
+      confirmed: "Bestätigt?"
+      credits: "Verwendetes Guthaben?"
       id: "Id"
       key: "Key"
-      no_backers: "No backers found."
-      project: "Project"
+      no_backers: "Keine backers gefunden."
+      project: "Projekt"
       refunded: "Refunded?"
       requested_refund: "Requested refund?"
       reward: "Reward"
-      submit: "Search"
-      title: "Backers management"
+      submit: "Suche"
+      title: "manage Backers"
       total_backed: "backed"
       total_backers: "backers"
       total_backs: "backs"
       total_users: "users"
       user: "User"
-      value: "Value"
+      value: "Betrag"
     project:
       backed: "backed"
       reached: "erreicht"
     project_backers:
       empty: "Nobody backed this project so far. How about being the first one?"
     project_header:
-      subtitle_html: "A project by %{link}"
-      without_city: "A project in %{category_name}, by %{author}"
-      with_city: "A project in %{category_name}, in %{city}, by %{author}"
+      subtitle_html: "Ein Projekt von %{link}"
+      without_city: "Ein Projekt der Kategorie %{category_name}, by %{author}"
+      with_city: "Ein Projekt der Kategorie %{category_name}, in %{city}, von %{author}"
     project_updates:
-      empty: "This project didn't have updates yet. But wait and see =D"
-      submit: "Send update"
+      empty: "Für dieses Projekt sind noch keine Updates / News vorhanden."
+      submit: "Update senden"
       comment: "Update text"
-      exclusive: "Visible for backers only"
-      title: "Title of the update"
-      destroy: "Remove update"
-      destroy_confirmation: "Do you want to remove the update?"
+      exclusive: "Nur für Backers sichtbar"
+      title: "Titel des Projekt-Updates"
+      destroy: "Update entfernen"
+      destroy_confirmation: "Möchten Sie dieses Update entfernen?"
     rewards:
-      reward_title: "For %{minimum} or more"
-      reward_deliver_time: "Estimated delivery: %{prevision}"
+      reward_title: "Für %{minimum} oder mehr"
+      reward_deliver_time: "Voraussichtliche Lieferung: %{prevision}"
       backs_to_confirm:
-        one:  "1 backer in time to confirm."
-        other: "%{count} backers in time to confirm."
+        one:  "zurzeit ist 1 backer zu Bestätigen."
+        other: "%{count} backers sind zurzeit zu Bestätigen"
       title: "Back and receive..."
     send_mail:
       success: "Your project was successfully sent! We'll soon contact you. Thanks a lot!"
@@ -524,14 +529,14 @@ de:
       waiting: "This project is waiting for approval and soon we'll know if it will go online on Catarse ;)"
       waiting_owner: "To edit the project info, click on 'Edit project' tab. The rewards you can edit on reward column."
       about_title: "About this project"
-      no_rewards_warning_title: 'Create here your rewards'
+      no_rewards_warning_title: "Create here your rewards"
       no_rewards_warning: "Don't go nuts! Think about how you're going to deliver them and include those costs in your budget. People are putting their trust in you, don't kid around with that!"
       reports:
         no_backs: "This project don't have any back yet."
-        link_reports: 'Download report of '
-        all_backers: 'all backers'
+        link_reports: "Download report of "
+        all_backers: "all backers"
         all_backers_without_reward: "all backers that don't select any reward"
-        link_reward: 'Download the report of backers that selected the reward'
+        link_reward: "Download the report of backers that selected the reward"
       menu:
         about: "Über das Projekt"
         backers: "Backers"
@@ -539,7 +544,7 @@ de:
         updates: "Updates"
         edit: "Bearbeiten"
         reports: "Reports"
-        add_reward: 'Add Rewards'
+        add_reward: "Add Rewards"
       share:
         embed: "embed"
         embed_title: "Embed this project on your site"
@@ -587,7 +592,7 @@ de:
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
       title: "Submit your project"
     twitter:
-      take_a_look: "Check out the project %{name} on @catarse"
+      take_a_look: "Check out the project %{name} on @blkb-crowdfund"
     video_embed:
       a_project_by_html: "A project by %{link} on"
   projects_mailer:
@@ -797,19 +802,19 @@ de:
         facebook: "Profile on facebook"
         twitter: "Profile on twitter"
     backs:
-      anonymous: "Anonymous back."
-      no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time! :D"
-      no_backs_current_user_html: "You haven't backed any project yet. What about <a href=\"/\">starting now</a>?"
-      no_reward: "You didn't pick a reward"
-      title: "Projects %{name} has backed"
-      title_current_user: "Projects I've backed"
-      your_reward: "Your reward"
+      anonymous: "Anonymer back."
+      no_backs: "%{name} hat bis jetzt keine Projekte mit seinem/ihrem Namen unterstützt. Aber wir wissen, dass dies nur noch eine Frage der Zeit ist. :-)"
+      no_backs_current_user_html: "Sie haben bis jetzt noch keine Projekte unterstützt. Wie wäre es <a href=\"/\">jetzt damit zu beginnen</a>?"
+      no_reward: "Sie haben keinen Reward gewählt"
+      title: "Projekte die %{name} unterstützt hat"
+      title_current_user: "Projekte die ich unterstützte"
+      your_reward: "Ihr Reward"
     unsubscribes:
-      title: "Choose from which projects you want to receive update notifications:"
-      updates: "I want to receive project updates"
+      title: "Wählen Sie von welchen Projekten Sie gerne Projekt-News erhalten möchten:"
+      updates: "ich möchte Projekt-Updates erhalten"
     current_user_fields:
-      bio_limit: 'only 140 characters'
-      updated: "Your information has been updated"
+      bio_limit: 'nur 140 Zeichen'
+      updated: "Ihre Informationen wurden aktualisiert"
       update_social_info: "Update info"
       social_info: "Contact info"
       twitter: "twitter ( username )"
@@ -819,16 +824,16 @@ de:
       current_password_hint: "<i>We need your current password to confirm your changes.</i>"
       email_hint: "Your email will only be used for communications from Catarse and from the projects you back. It won't be visible in your profile. When you back a project, we will give your email to the project owner so he can provide your rewards."
       email_tooltip: "Click here to fill your email..."
-      gravatar_hint_html: "Want to change your picture? Use %{link} with your email. It's as simple as uploading an image and works for other sites as well ;)"
-      local_avatar: "My avatar"
-      submit_text: "Choose your picture"
-      submit: "Submit"
-      my_data: "My profile"
-      newsletter: "I want to receive news from Catarse via email"
-      password_hint: "<i>Leave blank if you don't want to change it.</i>"
+      gravatar_hint_html: "Möchten Sie ihr Avatar ändern? Use %{link} with your email. It's as simple as uploading an image and works for other sites as well ;)"
+      local_avatar: "Mein Avatar"
+      submit_text: "Wählen Sie ihr Bild"
+      submit: "Abschicken"
+      my_data: "Mein Profil"
+      newsletter: "Ich möchten den BLKB Crowdfund Newsletter erhalten"
+      password_hint: "<i>Lassen Sie es leer wenn sie das Passwort nicht ändern möchten.</i>"
     header:
-      bio_tooltip: "Click here to write about you..."
-      name_tooltip: "Click here to fill your name..."
+      bio_tooltip: "Klicken Sie hier um über ihre Person zu schreiben..."
+      name_tooltip: "Klicken Sie hier um Ihr Name auszufüllen..."
     projects:
       no_projects: "%{name} haven't started any project on Catarse yet. We wonder if inspiration will hit one of these days!"
       no_projects_current_user_html: "You haven't submitted any project to Catarse yet. Let the inspiration flow and %{link} to start!"
@@ -839,15 +844,15 @@ de:
       alt: "You must enable images in order to correctly view this message."
       forward: "Foward to your friends"
       hello: "Hi"
-      intro: "You are receiving this message because you signed up on Catarse"
+      intro: "Sie erhalten diese Mitteilung weil Sie sich auf BLKB Crowdfunding registriert haben"
       mailee: "Message delivered by Mailee.me"
-      salutation: "Big hugs,"
-      signature: "Catarse's Team"
-      unsubscribe: "Unsubscribe"
-      unsubscribe_long: "If you don't want to receive these emails"
-      weblink: "View on the web"
-      whitelist: "Add contact"
-      whitelist_long: "Add our email to your contacts"
+      salutation: "Freundliche Grüsse,"
+      signature: "BLKB Crowdfund Team"
+      unsubscribe: "Abo löschen"
+      unsubscribe_long: "Wenn Sie diese e-mails in Zukunft nicht mehr erhalten möchten"
+      weblink: "Online anschauen"
+      whitelist: "Kontakt hinzufügen"
+      whitelist_long: "Fügen Sie unsere e-mail ihren Kontakten "
   notifications:
     backers:
       to_backer:
